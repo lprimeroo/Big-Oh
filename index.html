@@ -5,9 +5,8 @@
   <title>Big-Oh</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" href="favicon.ico">
-<meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+ 
+  <meta name="apple-mobile-web-app-capable" content="yes">
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
@@ -22,19 +21,15 @@
         <div class="best-container">0</div>
       </div>
     </div>
-
-    <div class="above-game">
-      <p class="game-intro">Join the time complexities and get to the <strong>'O(1)' tile!</strong>
+    <p class="game-intro">Join the time complexities and get to the <strong>'O(1)' tile!</strong>
         A geekier clone of <a href="https://play.google.com/store/apps/details?id=com.veewo.a1024 ">2048</a>.</p>
-      <a class="restart-button">New Game</a>
-    </div>
-
+    
     <div class="game-container">
       <div class="game-message">
         <p></p>
         <div class="lower">
-	        <a class="keep-playing-button">Keep going</a>
-          <a class="retry-button">Try again</a>
+	        <a class="keep-playing-button">Keep going!</a>
+          <a class="retry-button">I still want a Nobel Prize.</a>
         </div>
       </div>
 
@@ -71,7 +66,7 @@
     </div>
 
     <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same complexity touch, they <strong>merge into a faster complexity!</strong> Can you achieve O(1) ?
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to accelerate the particles. When two particles with the same type collide, they <strong>annihilate and a new particle would be generated!</strong>
     </p>
     <hr>
     <p>
@@ -83,14 +78,12 @@
     </p>
   </div>
 
-  <script src="js/bind_polyfill.js"></script>
-  <script src="js/classlist_polyfill.js"></script>
   <script src="js/animframe_polyfill.js"></script>
   <script src="js/keyboard_input_manager.js"></script>
   <script src="js/html_actuator.js"></script>
   <script src="js/grid.js"></script>
   <script src="js/tile.js"></script>
-  <script src="js/local_storage_manager.js"></script>
+  <script src="js/local_score_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
 </body>

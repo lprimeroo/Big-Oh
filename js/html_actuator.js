@@ -36,7 +36,7 @@ HTMLActuator.prototype.actuate = function (grid, metadata) {
 };
 
 // Continues the game (both restart and keep playing)
-HTMLActuator.prototype.continueGame = function () {
+HTMLActuator.prototype.continue = function () {
   this.clearMessage();
 };
 
@@ -61,8 +61,23 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   this.applyClasses(wrapper, classes);
 
+  var outputtext = new Array();
+   outputtext[0] = "";
+  outputtext[1] = "O(n!)";
+  outputtext[2] = "O(n^3)";
+  outputtext[3] = "O(n^2)";
+  outputtext[4] = "O(nlogn)";
+  outputtext[5] = "O(nlog^*n)";
+  outputtext[6] = "O(n)";
+  outputtext[7] = "O(logn)";
+  outputtext[8] = "O(loglogn)";
+  outputtext[9] = "O(log^*n)";
+  outputtext[10] = "O(alpha(n)";
+  outputtext[11] = "O(1)";
+
+
   inner.classList.add("tile-inner");
-  inner.textContent = tile.value;
+  inner.textContent = outputtext[(Math.log(tile.value) / Math.LN2)] || '';
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
@@ -126,8 +141,8 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Time Limit Exceeded!";
-
+  var message = won ? "You win a Nobel Prize!!" : "Too much pileup!";
+  
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
 };
