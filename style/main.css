@@ -358,10 +358,11 @@ hr {
         font-size: 11px; } }
   .tile.tile-64 .tile-inner {
     color: white;
-    background: #666699; }
+    background: #666699;
+    font-size: 21;}
     @media screen and (max-width: 520px) {
       .tile.tile-64 .tile-inner {
-        font-size: 21px; } }
+        font-size: 14px; } }
   .tile.tile-128 .tile-inner {
     color: white;
       font-size: 25px;
