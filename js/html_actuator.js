@@ -65,8 +65,8 @@ HTMLActuator.prototype.addTile = function (tile) {
   
   var outputtext = new Array();
    outputtext[0] = "";
-  outputtext[1] = "O(n!)";
-  outputtext[2] = "O(n"+"3".sup()+")";
+  outputtext[1] = "O(2"+"n".sup()+")";
+  outputtext[2] = "O(n!)";
   outputtext[3] = "O(n"+"2".sup()+")";
   outputtext[4] = "O(nlogn)";
   outputtext[5] = "O(nlog"+"*".sup()+"n)";
