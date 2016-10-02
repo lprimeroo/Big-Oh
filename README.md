@@ -23,7 +23,10 @@ When two tiles with the same complexity touch, they merge into a faster complexi
 
 *Can you achieve O(1) ?*
 
-##Enjoy !
+###Enjoy !
+
+##Created by Sarthak Munshi. 
+Based on 1024 by Veewo Studio and conceptually similar to Threes by Asher Vollmer.
 
 ##Screenshot
 ![Screenshot of Big-Oh](http://i.imgur.com/sO7SeNr.png "Screenshot")
