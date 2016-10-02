@@ -36,4 +36,6 @@ This project is currently licensed under MIT License.
 For more details see <a href="https://github.com/saru95/Big-Oh/blob/gh-pages/LICENSE.md">LICENSE.md</a>.
 
 ##Gameplay
+**Have a look of our gameplay and Have fun :)**
+
 ![Screenshot of Big-Oh](/screenshots/screencast.gif "Screenshot")
