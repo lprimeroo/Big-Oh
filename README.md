@@ -17,8 +17,6 @@ Order of merging :
 `O(1)`
 ##Enjoy !
 
-<<<<<<< HEAD
-
 ### How to contribute to this project :-
 
 1. Go through the entire project or our project [site](http://saru95.github.io/Big-Oh) after clone it, look for bugs and report them if you find any.
@@ -36,7 +34,6 @@ Order of merging :
 ##License
 This project is currently licensed under MIT License.
 For more details see <a href="https://github.com/saru95/Big-Oh/blob/gh-pages/LICENSE.md">LICENSE.md</a>.
-=======
+
 ##Gameplay
 ![Screenshot of Big-Oh](/screenshots/screencast.gif "Screenshot")
->>>>>>> 859a121c2152f785d89505ae55921b0b0e261a46
