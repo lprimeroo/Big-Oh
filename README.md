@@ -3,7 +3,8 @@ Big-Oh
 A geeky clone of 2048 for programmers .
 ##Achieve Big-Oh of 1 .
 
-Order of merging :
+You can follow the following sequence to get O(1) : 
+
 `O(2`<sup>`n`</sup>`)`
 `O(n!)`
 `O(n`<sup>`2`</sup>`)`
@@ -15,6 +16,13 @@ Order of merging :
 `O(log`<sup>`*`</sup>`n)`
 `O(alpha(n))`
 `O(1)`
+
+##How to play
+Use your arrow keys to move the tiles. 
+When two tiles with the same complexity touch, they merge into a faster complexity! 
+
+*Can you achieve O(1) ?*
+
 ##Enjoy !
 
 ##Screenshot
