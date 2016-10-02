@@ -3,8 +3,7 @@ Big-Oh
 A geeky clone of 2048 for programmers .
 ##Achieve Big-Oh of 1 .
 
-You can follow the following sequence to get O(1) : 
-
+Order of merging :
 `O(2`<sup>`n`</sup>`)`
 `O(n!)`
 `O(n`<sup>`2`</sup>`)`
@@ -16,15 +15,9 @@ You can follow the following sequence to get O(1) :
 `O(log`<sup>`*`</sup>`n)`
 `O(alpha(n))`
 `O(1)`
-
-##How to play
-Use your arrow keys to move the tiles. 
-When two tiles with the same complexity touch, they merge into a faster complexity! 
-
-*Can you achieve O(1) ?*
-
 ##Enjoy !
 
+<<<<<<< HEAD
 
 ### How to contribute to this project :-
 
@@ -43,3 +36,7 @@ When two tiles with the same complexity touch, they merge into a faster complexi
 ##License
 This project is currently licensed under MIT License.
 For more details see <a href="https://github.com/saru95/Big-Oh/blob/gh-pages/LICENSE.md">LICENSE.md</a>.
+=======
+##Gameplay
+![Screenshot of Big-Oh](/screenshots/screencast.gif "Screenshot")
+>>>>>>> 859a121c2152f785d89505ae55921b0b0e261a46
