@@ -25,6 +25,18 @@ When two tiles with the same complexity touch, they merge into a faster complexi
 
 ##Enjoy !
 
+
+### How to contribute to this project :-
+
+1. Go through the entire project or our project [site](http://saru95.github.io/Big-Oh) after clone it, look for bugs and report them if you find any.
+
+2. View the issues put up in the repo and try to fix them. You may send us a pull request after that.
+
+3. **IMPORTANT** :- Before sending a **Pull Request** make sure that your forked repository is in sync with the base repository [Click Here](https://github.com/appteam-nith/festnimbus/wiki/Stay-in-Sync-with-Base-Repository) .
+
+4. If you are not familiar with git First you should learn about git . [A helpful link which you can follow](http://rogerdudler.github.io/git-guide)
+
+
 ##Screenshot
 ![Screenshot of Big-Oh](http://i.imgur.com/sO7SeNr.png "Screenshot")
 
