@@ -19,3 +19,7 @@ Order of merging :
 
 ##Screenshot
 ![Screenshot of Big-Oh](http://i.imgur.com/sO7SeNr.png "Screenshot")
+
+##License
+This project is currently licensed under MIT License.
+For more details see <a href="https://github.com/saru95/Big-Oh/blob/gh-pages/LICENSE.md">LICENSE.md</a>.
