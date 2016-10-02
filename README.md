@@ -16,6 +16,13 @@ You can follow the following sequence to get O(1) :
 `O(log`<sup>`*`</sup>`n)`
 `O(alpha(n))`
 `O(1)`
+
+##How to play
+Use your arrow keys to move the tiles. 
+When two tiles with the same complexity touch, they merge into a faster complexity! 
+
+*Can you achieve O(1) ?*
+
 ##Enjoy !
 
 ##Screenshot
