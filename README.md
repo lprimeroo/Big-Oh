@@ -3,7 +3,8 @@ Big-Oh
 A geeky clone of 2048 for programmers .
 ##Achieve Big-Oh of 1 .
 
-Order of merging :
+You can follow the following sequence to get O(1) : 
+
 `O(2`<sup>`n`</sup>`)`
 `O(n!)`
 `O(n`<sup>`2`</sup>`)`
