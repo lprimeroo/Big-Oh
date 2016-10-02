@@ -17,5 +17,5 @@ Order of merging :
 `O(1)`
 ##Enjoy !
 
-##Screenshot
-![Screenshot of Big-Oh](http://i.imgur.com/sO7SeNr.png "Screenshot")
+##Gameplay
+![Screenshot of Big-Oh](/screenshots/screencast.gif "Screenshot")
