@@ -1,7 +1,8 @@
 Big-Oh
 ======
-A geeky clone of 2048 for programmers .
-##Achieve Big-Oh of 1 .
+A geeky clone of 2048 for programmers.
+
+## Achieve Big-Oh of 1.
 
 Order of merging :
 `O(2`<sup>`n`</sup>`)`
@@ -16,13 +17,15 @@ Order of merging :
 `O(alpha(n))`
 `O(1)`
 
-##How to play
+## How to play
+
 Use your arrow keys to move the tiles. When two tiles with the same complexity touch, they merge into a faster complexity!
 
-Can you achieve O(1) ?
+Can you achieve O(1)?
 
 
-##Gameplay
+## Gameplay
+
 ![Screenshot of Big-Oh](/screenshots/screencast.gif "Screenshot")
 
 ##License
